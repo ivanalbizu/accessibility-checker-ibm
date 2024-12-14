@@ -1,0 +1,67 @@
+{
+    "results": [
+        {
+            "ruleId": "style_color_misuse",
+            "value": [
+                "VIOLATION",
+                "POTENTIAL"
+            ],
+            "path": {
+                "dom": "/html[1]/head[1]/link[1]",
+                "aria": "/document[1]"
+            },
+            "ruleTime": 70,
+            "reasonId": "Potential_1",
+            "message": "Verify color is not used as the only visual means of conveying information",
+            "messageArgs": [],
+            "apiArgs": [],
+            "bounds": {
+                "left": 0,
+                "top": 0,
+                "height": 0,
+                "width": 0
+            },
+            "snippet": "<link href=\"hl/ob4/s/erebor/css/erebor-orange.css\" rel=\"stylesheet\">",
+            "category": "Accessibility",
+            "level": "potentialviolation",
+            "ignored": false,
+            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_color_misuse.html#%7B%22message%22%3A%22Verify%20color%20is%20not%20used%20as%20the%20only%20visual%20means%20of%20conveying%20information%22%2C%22snippet%22%3A%22%3Clink%20href%3D%5C%22hl%2Fob4%2Fs%2Ferebor%2Fcss%2Ferebor-orange.css%5C%22%20rel%3D%5C%22stylesheet%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_color_misuse%22%2C%22msgArgs%22%3A%5B%5D%7D"
+        }
+    ],
+    "numExecuted": 135,
+    "ruleTime": 214,
+    "nls": {
+        "style_color_misuse": {
+            "0": "Combine color and descriptive markup to convey information",
+            "Potential_1": "Verify color is not used as the only visual means of conveying information"
+        }
+    },
+    "summary": {
+        "counts": {
+            "ignored": 0,
+            "elements": 3,
+            "elementsViolation": 0,
+            "elementsViolationReview": 2,
+            "violation": 0,
+            "potentialviolation": 1,
+            "recommendation": 1,
+            "potentialrecommendation": 0,
+            "manual": 1,
+            "pass": 132
+        },
+        "scanTime": 851,
+        "ruleArchive": "Latest Deployment (latest)",
+        "policies": [
+            "IBM_Accessibility"
+        ],
+        "reportLevels": [
+            "violation",
+            "potentialviolation"
+        ],
+        "startScan": 1734185390864,
+        "URL": "https://ivanalbizu.eu/experimentos/hlx/000-minimal.html"
+    },
+    "scanID": "8cb4d515-e0e8-4046-b5a2-15c72e5afefe",
+    "toolID": "accessibility-checker-v3.1.79",
+    "label": "ivanalbizu.eu"
+}
