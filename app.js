@@ -4,7 +4,7 @@ const aChecker = require("accessibility-checker")
 const app = express()
 const bodyParser = require('body-parser')
 app.set('view engine', 'pug')
-app.set('views', './views')
+app.set("views", __dirname + "/views")
 const port = 3000
 
 app.use(bodyParser.urlencoded({ extended: true }));
