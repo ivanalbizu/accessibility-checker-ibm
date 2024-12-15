@@ -10,14 +10,10 @@ const port = 3000
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-  res.render('index', { title: 'Hey', message: 'Hello there!'})
+  res.render('index', { title: 'IBM - Equal Access Checker for Node', message: 'IBM - Equal Access Checker for Node' })
 })
 
-app.get('/checker', (req, res) => {
-  res.render('report', { title: 'Checker', message: 'Checker' })
-})
-
-app.post('/checker', async (req, res) => {
+app.post('/', async (req, res) => {
   const url = req.body.url
   let domain
   if (!url) {
@@ -44,7 +40,7 @@ app.post('/checker', async (req, res) => {
       // In the case that the violationData is not defined then trigger an error right away.
       // expect(returnCode).toBe(0, "Scanning " + 'testLabel' + " failed.")
       console.log("returnCode:", returnCode)
-      res.render('report', report)
+      res.render('index', report)
     })
   } catch (err) {
     console.error(err)

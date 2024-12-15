@@ -94,7 +94,7 @@
                 "dom": "/html[1]/head[1]/style[1]",
                 "aria": "/document[1]"
             },
-            "ruleTime": 8,
+            "ruleTime": 4,
             "reasonId": "Potential_1",
             "message": "Verify that text sized using viewport units can be resized up to 200%",
             "messageArgs": [],
@@ -110,35 +110,6 @@
             "level": "potentialviolation",
             "ignored": false,
             "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/style_viewport_resizable.html#%7B%22message%22%3A%22Verify%20that%20text%20sized%20using%20viewport%20units%20can%20be%20resized%20up%20to%20200%25%22%2C%22snippet%22%3A%22%3Cstyle%20id%3D%5C%22gatsby-global-css%5C%22%20data-href%3D%5C%22%2Fable%2Fstyles.88a2f5040b399982b842.css%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22POTENTIAL%22%5D%2C%22reasonId%22%3A%22Potential_1%22%2C%22ruleId%22%3A%22style_viewport_resizable%22%2C%22msgArgs%22%3A%5B%5D%7D"
-        },
-        {
-            "ruleId": "aria_banner_label_unique",
-            "value": [
-                "VIOLATION",
-                "FAIL"
-            ],
-            "path": {
-                "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]",
-                "aria": "/document[1]/banner[1]"
-            },
-            "ruleTime": 0,
-            "reasonId": "Fail_1",
-            "message": "Multiple elements with \"banner\" role do not have unique labels",
-            "messageArgs": [
-                ""
-            ],
-            "apiArgs": [],
-            "bounds": {
-                "left": 0,
-                "top": 1927,
-                "height": 48,
-                "width": 800
-            },
-            "snippet": "<header class=\"bx--header Header-module--header--36HqL\">",
-            "category": "Accessibility",
-            "level": "violation",
-            "ignored": false,
-            "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/aria_banner_label_unique.html#%7B%22message%22%3A%22Multiple%20elements%20with%20%5C%22banner%5C%22%20role%20do%20not%20have%20unique%20labels%22%2C%22snippet%22%3A%22%3Cheader%20class%3D%5C%22bx--header%20Header-module--header--36HqL%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22Fail_1%22%2C%22ruleId%22%3A%22aria_banner_label_unique%22%2C%22msgArgs%22%3A%5B%22%22%5D%7D"
         },
         {
             "ruleId": "element_tabbable_unobscured",
@@ -204,7 +175,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/button[1]",
                 "aria": "/document[1]/banner[1]/search[1]/button[1]"
             },
-            "ruleTime": 3,
+            "ruleTime": 2,
             "reasonId": "potential_obscured",
             "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
             "messageArgs": [],
@@ -258,7 +229,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/input[1]",
                 "aria": "/document[1]/banner[1]/search[1]/combobox[1]"
             },
-            "ruleTime": 0,
+            "ruleTime": 1,
             "reasonId": "potential_placeholder_only",
             "message": "The ‘placeholder’ is the only visible label",
             "messageArgs": [],
@@ -370,7 +341,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[3]/button[1]",
                 "aria": "/document[1]/banner[1]/button[2]"
             },
-            "ruleTime": 4,
+            "ruleTime": 3,
             "reasonId": "potential_obscured",
             "message": "Confirm that when the element receives focus, it is not covered or, if covered by user action, can be uncovered without moving focus",
             "messageArgs": [],
@@ -480,7 +451,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[8]/div[1]/div[1]/video[1]",
                 "aria": "/document[1]/main[1]"
             },
-            "ruleTime": 47,
+            "ruleTime": 43,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -696,7 +667,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[19]/div[3]/div[1]/div[1]/div[1]/a[1]",
                 "aria": "/document[1]/main[1]/link[9]"
             },
-            "ruleTime": 0,
+            "ruleTime": 1,
             "reasonId": "potential_warn",
             "message": "Inform the user when their input action will open a new window",
             "messageArgs": [],
@@ -804,7 +775,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[26]/div[1]/div[1]/video[1]",
                 "aria": "/document[1]/main[1]"
             },
-            "ruleTime": 40,
+            "ruleTime": 42,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -858,7 +829,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[28]/div[1]/div[1]/video[1]",
                 "aria": "/document[1]/main[1]"
             },
-            "ruleTime": 47,
+            "ruleTime": 43,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -912,7 +883,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[2]/div[1]/div[1]/div[30]/div[1]/div[1]/video[1]",
                 "aria": "/document[1]/main[1]"
             },
-            "ruleTime": 47,
+            "ruleTime": 46,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -1020,7 +991,7 @@
                 "dom": "/html[1]/body[1]/div[1]/div[1]/main[1]/div[3]/button[1]",
                 "aria": "/document[1]/main[1]/complementary[1]/button[1]"
             },
-            "ruleTime": 41,
+            "ruleTime": 43,
             "reasonId": "potential_focus_not_visible",
             "message": "Check the keyboard focus indicator is visible when using CSS declaration for 'border' or 'outline'",
             "messageArgs": [],
@@ -1124,8 +1095,8 @@
             "help": "https://able.ibm.com/rules/archives/2024.12.12/doc/en-US/svg_graphics_labelled.html#%7B%22message%22%3A%22The%20SVG%20element%20has%20no%20accessible%20name%22%2C%22snippet%22%3A%22%3Csvg%20xmlns%3D%5C%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%5C%22%20height%3D%5C%2232%5C%22%20width%3D%5C%2281%5C%22%20class%3D%5C%22Footer-module--logo--3X5sq%5C%22%3E%22%2C%22value%22%3A%5B%22VIOLATION%22%2C%22FAIL%22%5D%2C%22reasonId%22%3A%22fail_acc_name%22%2C%22ruleId%22%3A%22svg_graphics_labelled%22%2C%22msgArgs%22%3A%5B%5D%7D"
         }
     ],
-    "numExecuted": 2648,
-    "ruleTime": 3440,
+    "numExecuted": 2600,
+    "ruleTime": 3525,
     "nls": {
         "element_attribute_deprecated": {
             "0": "Avoid use of obsolete features if possible",
@@ -1142,10 +1113,6 @@
         "style_viewport_resizable": {
             "0": "Text must scale up to 200% without loss of content or functionality",
             "Potential_1": "Verify that text sized using viewport units can be resized up to 200%"
-        },
-        "aria_banner_label_unique": {
-            "0": "Each element with \"banner\" role must have a unique label that describes its purpose",
-            "Fail_1": "Multiple elements with \"banner\" role do not have unique labels"
         },
         "element_tabbable_unobscured": {
             "0": "When an element receives focus, it is not entirely covered by other content",
@@ -1196,17 +1163,17 @@
     "summary": {
         "counts": {
             "ignored": 0,
-            "elements": 29,
-            "elementsViolation": 3,
-            "elementsViolationReview": 14,
-            "violation": 3,
+            "elements": 28,
+            "elementsViolation": 2,
+            "elementsViolationReview": 13,
+            "violation": 2,
             "potentialviolation": 18,
             "recommendation": 3,
             "potentialrecommendation": 12,
             "manual": 5,
-            "pass": 2607
+            "pass": 2560
         },
-        "scanTime": 8973,
+        "scanTime": 8856,
         "ruleArchive": "Latest Deployment (latest)",
         "policies": [
             "IBM_Accessibility"
@@ -1218,10 +1185,10 @@
             "potentialrecommendation",
             "manual"
         ],
-        "startScan": 1734268189663,
+        "startScan": 1734268290330,
         "URL": "https://www.ibm.com/able/toolkit/tools/#develop"
     },
-    "scanID": "6f19cd28-7e23-44c5-9d4a-f7a7ea4bc476",
+    "scanID": "0f924303-125e-4d8c-ad99-2ac09508e693",
     "toolID": "accessibility-checker-v3.1.79",
     "label": "www.ibm.com"
 }
